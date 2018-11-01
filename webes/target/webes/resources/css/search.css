@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #E8F0BE;
+}
+.nav{
+    background:#205493;
+    height:60px;
+}
+.searchDiv{
+    margin: 16px auto 0;
+    text-align:center;
+}
+.searchDiv-tip{
+	font-size: 20px;
+    color:#fff;
+    margin-right: 10px;
+}
+.nav input{
+    width:80%;
+    max-width:380px;
+    padding:0 10px;
+    font-size: 18px;
+}
+
+.content{
+
+}
+.totalCount,.selectPage{
+    text-align:center;
+    margin-top: 20px;
+}
+.listNum{
+    float:left;
+    color:#A1AC80;
+    display:inline-block;
+    padding: 0px 5px;
+    background: #DBE3B4;
+    margin: 0 3px 0 -21px;
+}
+.pMargin{
+    margin-bottom:2px;
+    /*text-align: justify;*/
+    /*text-align-last: justify;*/
+}
+.resultUl li{
+	margin-top: 20px;
+    margin-bottom:20px;
+}
+.resultUl p{
+    word-wrap:break-word;
+}
+.context,.contextTwo{
+    font-size: 14px;
+    color: #000;
+    line-height: 17px;
+    margin-right:0!important;
+}
+.pubDate{
+    color: #37474f;
+    font-size:12px;
+}
+.title{
+    color: #237aaa;
+    font-size: 19px;
+}
+.pmid,.pmcid{
+    color:#0071bc ;
+    font-size:12px;
+}
+.doi,.author{
+    color:#8c9296;
+    font-size:14px;
+}
+.seeLess{
+    display:none;
+}
+.seeMore{
+    cursor:pointer;
+    font-size: 12px;
+    font-style: italic;
+    color: #237aaa;
+    /*float:left;*/
+ /*margin-top:-3px;*/
+}
+.pMargin span{
+    margin-right:9px;
+}
+
+.arrowEnable{
+    color: #90a4ae;
+}
+.leftArrow,.rightArrow{
+    cursor:pointer;
+}
+.secondP{
+    font-size:14px;
+}
+.showMore{
+   display:inline!important;
+}
+.contextP{
+    display:inline-block;
+    margin-bottom:0;
+  }
+.contextTwo, .contextThree{
+    display:none;
+}
+/*.author{*/
+    /*color: #8c9296;*/
+    /*font-size: 14px;*/
+/*}*/
+.highLight{
+    background-color: #ffcdd2;
+}
+.layui-layer-content{
+    color:#fff;
+}
+.select{
+	text-align:center;
+    margin-top: 20px;
+    background:#fafdfe;
+	height:28px;
+	width:150px;
+	line-height:28px;
+	border:1px solid #9bc0dd;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+    
+}
+.try{
+	font-size: 18px;
+	margin-top: 50px;
+}
+input{
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.var1,.var2,.var3,.var4,.var5,.var6,.var7,.var8,.gene1,.gene2,.gene3,.gene4,.disease1,.disease2,.disease3,.disease4,.disease5,.disease6,.disease7,.disease8,.disease9,.disease10,.disease11,.disease12,.disease13,.disease14,.chemical1,.chemical2,.chemical3,.chemical4,.chemical5,.chemical6,.chemical7,.chemical8,.chemical9,.chemical10,.chemical11{
+	color: #0071bc;
+    cursor: pointer; 
+}
+button.icon:hover {
+    background: #c0c0c0;
+}
